@@ -42,9 +42,9 @@ public class StreamCte {
         System.out.println("total:" + totalId);
 
         // 5,查找流中最大 最小值
-        Optional<Apple> maxA = aList.stream().collect(Collectors.maxBy(Comparator.comparing(Apple::getId)));
+        Optional<Apple> maxA = aList.stream().max(Comparator.comparing(Apple::getId));
         maxA.ifPresent(System.out::println);
-        Optional<Apple> minA = aList.stream().collect(Collectors.minBy(Comparator.comparing(Apple::getName)));
+        Optional<Apple> minA = aList.stream().min(Comparator.comparing(Apple::getName));
         minA.ifPresent(System.out::println);
 
         // 6,去重
