@@ -2,6 +2,7 @@ package com.liwncy.reptile;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import lombok.Data;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -71,14 +72,14 @@ public class GithubCom {
         Repo repo = new Repo();
         repo.setId("0");
         repo.setName(rname);
-//        repo.setChildren(getData(html));
-        getData2(html,"##");
+        repo.setChildren(getData(html));//json格式
+//        getData2(html,"##");//md格式
         //转成json格式
         List<Object> rlist = new ArrayList<>();
         rlist.add(repo);
         JSONArray jsonArray = JSONArray.parseArray(JSON.toJSONString(rlist));
-//        String json = JSONObject.toJSONString(repo);
-        String json = jsonArray.toString();
+        String json = JSONObject.toJSONString(repo); //json格式
+//        String json = jsonArray.toString(); //md格式
         System.out.println(json);
         return repo;
     }
