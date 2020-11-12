@@ -63,3 +63,8 @@ export function test() {
     let finalArr = allArr.find(item => item.id === 2);
     console.log(finalArr);
 }
+
+let tel = 'tel:';
+let arr = [5,6,7,8,1,2,3];
+[4,2,3,1,0,4,1,6,5,6,6].forEach(x=>{tel+=arr[x]+''});
+console.log(tel);
