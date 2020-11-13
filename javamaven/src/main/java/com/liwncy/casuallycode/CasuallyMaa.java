@@ -1,13 +1,13 @@
-package com.liwncy.mycode;
+package com.liwncy.casuallycode;
 import com.liwncy.myutils.MD4Util;
-import org.apache.commons.codec.digest.DigestUtils;
+
 /**
  * 解题
  *
  * @author: Liwncy
  * @date: 2020-11-11 17:06
  **/
-public class Code001 {
+public class CasuallyMaa {
 
     public static void main(String[] args) {
 

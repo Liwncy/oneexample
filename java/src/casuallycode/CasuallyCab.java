@@ -1,4 +1,4 @@
-package javacexp.mycode;
+package casuallycode;
 
 /**
  * 验证异常处理
@@ -6,10 +6,10 @@ package javacexp.mycode;
  * @author: Liwncy
  * @date: 2020-11-11 11:13
  **/
-public class Code002 {
+public class CasuallyCab {
 
     public static void main(String[] args) throws Exception {
-        Code002 code = new Code002();
+        CasuallyCab code = new CasuallyCab();
 //        code.test1();
 //        code.test2();
         code.test3();

@@ -1,4 +1,4 @@
-package javacexp.mycode;
+package casuallycode;
 
 import java.io.UnsupportedEncodingException;
 
@@ -9,7 +9,7 @@ import java.io.UnsupportedEncodingException;
  * @date: 2020-10-30 16:18
  * 17865163233
  **/
-public class Code001 {
+public class CasuallyCaa {
     public static void main(String[] args) throws UnsupportedEncodingException {
 //        int[] num = new int[]{5,6,7,8,1,2,3};
 //        int[] index = new int[]{4,2,3,1,0,4,1,6,5,6,6};
@@ -19,7 +19,7 @@ public class Code001 {
 //        }
 //        System.out.println("vx&tel:"+tel);
 
-        Code001 test = new Code001();
+        CasuallyCaa test = new CasuallyCaa();
         StringBuilder str = new StringBuilder(test.getStr(66));
 //        String a = "aa吉萨大B啊是多久啊撒大飒飒的aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         String a = "a";
