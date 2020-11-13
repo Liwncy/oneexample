@@ -4,34 +4,21 @@
  * @param format
  * @returns {*}
  */
-var dateFormat = (time, format) => {
-    var t = new Date(time);
-    var tf = function (i) {
+const dateFormat = (time, format) => {
+    let t = new Date(time);
+    const tf = function (i) {
         return (i < 10 ? '0' : '') + i
     };
-    return format.replace(/yyyy|MM|dd|HH|mm|ss/g, function (a) {
-        switch (a) {
-            case 'yyyy':
-                return tf(t.getFullYear());
-                break;
-            case 'MM':
-                return tf(t.getMonth() + 1);
-                break;
-            case 'mm':
-                return tf(t.getMinutes());
-                break;
-            case 'dd':
-                return tf(t.getDate());
-                break;
-            case 'HH':
-                return tf(t.getHours());
-                break;
-            case 'ss':
-                return tf(t.getSeconds());
-                break;
-        }
-    })
-}
+    const approach = {
+        yyyy: tf(t.getFullYear()),
+        MM: tf(t.getMonth() + 1),
+        mm: tf(t.getMinutes()),
+        dd: tf(t.getDate()),
+        HH: tf(t.getHours()),
+        ss: tf(t.getSeconds())
+    };
+    return format.replace(/yyyy|MM|dd|HH|mm|ss/g, a => approach[a])
+};
 console.log(dateFormat(new Date(),'yyyy-MM-dd')) // 2020-10-21
 /**
  * 将指定格式的字符串解析为日期字符串
