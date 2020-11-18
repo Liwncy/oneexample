@@ -30,7 +30,7 @@ public class Leet0083 {
 
         Leet0083 leet = new Leet0083();
 //        System.out.println(l1);
-        System.out.println(leet.deleteDuplicates(l1));
+        System.out.println(leet.deleteDuplicates1(l1));
     }
 
     public ListNode deleteDuplicates(ListNode head) {

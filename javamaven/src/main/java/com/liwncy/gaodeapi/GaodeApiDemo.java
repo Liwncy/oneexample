@@ -64,7 +64,7 @@ public class GaodeApiDemo {
 
     public static void writeContent(String data) {
         try {
-            File file = new File("weather.txt");
+            File file = new File("weather.json");
             if (!file.exists()) {
                 file.createNewFile();
             }

@@ -10,7 +10,8 @@ public class CasuallyCac {
 
     public static void main(String[] args) {
         CasuallyCac cac = new CasuallyCac();
-        System.out.println(cac.toThousands(1000000000));
+        System.out.println("12321445646564a".replaceAll("(\\d)(?=(?:\\d{3})+$)","$1,"));
+        //System.out.println(cac.toThousands(1000000000));
     }
 
     public String  toThousands(int num){
