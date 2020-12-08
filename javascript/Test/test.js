@@ -1,12 +1,53 @@
-const dataPattern = (str, format = '-') => {
-    if (!str) {
-        return new Date()
-    }
-    const dateReg = new RegExp(`^(\\d{2})${format}(\\d{2})${format}(\\d{4})$`)
-    console.log(dateReg);
-    const [, month, day, year] = dateReg.exec(str)
-    console.log([, month, day, year])
-    return new Date(`${month}, ${day} ${year}`)
+console.log("test");
+
+
+const trimMd = str => {
+    //获取标题
+    let titleElement = document.querySelector("#activity-name");
+    //获取文章
+    let contentElement = document.querySelector("#js_content");
+
+    let articleElement = document.querySelector("#js_article");
+
+    console.log(exEm(articleElement));
 }
 
-console.log(dataPattern('12-25-1995')) // Mon Dec 25 1995 00:00:00 GMT+0800 (中国标准时间)
+// 处理元素
+const exEm = elem => {
+    // debugger
+    if (!elem) {
+        return "";
+    }
+    let str = "";
+    let child = elem.firstElementChild;
+    while (child) {
+        // 标题
+        if (child.tagName.length === 2 && child.tagName.charAt(0) === 'H' && !isNaN(parseInt(child.tagName.charAt(1)))) {
+            str += "###########".slice(0,parseInt(child.tagName.charAt(1))) + child.innerText + "\n";
+        }
+        // 文字
+        else if (child.tagName === 'P' || child.tagName === 'SPAN') {
+            str += child.innerText + "\n";
+        }
+        // 列表
+        else if (child.tagName === 'LI') {
+            str += "* " + child.innerText + "\n";
+        }
+        // 代码块
+        else if (child.tagName === 'PRE') {
+            str += "```" + "\n"
+                + child.innerText + "\n"
+                + "```" + "\n";
+        }
+        // 非代码块
+        else {
+            str += exEm(child);
+        }
+        child = child.nextElementSibling;
+    }
+    return str;
+}
+
+// 延时执行
+setTimeout(trimMd, 300);
+
