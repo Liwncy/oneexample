@@ -21,6 +21,11 @@ const exEm = elem => {
     let str = "";
     let child = elem.firstElementChild;
     while (child) {
+        // 如果没内容,直接去下一孩子
+        if(!child.innerText){
+            child = child.nextElementSibling;
+            continue;
+        }
         // 标题
         if (child.tagName.length === 2 && child.tagName.charAt(0) === 'H' && !isNaN(parseInt(child.tagName.charAt(1)))) {
             str += "###########".slice(0,parseInt(child.tagName.charAt(1))) + child.innerText + "\n";
