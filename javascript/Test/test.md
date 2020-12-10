@@ -1,260 +1,140 @@
-#.MD语法入门
-![image.png](https://upload.jianshu.io/users/upload_avatars/13623636/b65d89a7-6115-479e-8004-18753e925b69?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp "image")
-hunter97
-关注
-4
-字数 1,054
-阅读 87,044
-.md即markdown文件的基本常用编写语法,是一种快速标记、快速排版语言，现在很多前段项目中的说明文件readme等都是用.md文件编写的，而且很多企业也在在鼓励使用这种编辑方式，特别作为一个前端从业者更要学会使用这种语言。下面就简单和大家分享一些.md基本语法
-#####一、基本符号：* - +. >
-基本上所有的markdown标记都是基于这四个符号或组合，需要注意的是，如果以基本符号开头的标记，注意基本符号后有一个用于分割标记符和内容的空格。
-#####二、标题
-1.前面带#号，后面带文字，分别表示h1-h6,只到h6，而且h1下面会有一条横线
-```
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
-
-```
-2.相当于标签闭合
-```
-# 一级标题 #
-## 二级标题 ##
-### 三级标题 ###
-#### 四级标题 ####
-##### 五级标题 #####
-###### 六级标题 #####
-
-```
-效果如下：
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-1be77fac16e71320.png "image")
-#####三、列表
-* 无序列表
-```
-//形式一
-+ a
-+ b
-+ c
-//形式二
-- d
-- e
-- f
-//形式三
-* g
-* h
-* i
-
-```
+##硬核神器！安装可享受永久VIP特权！
+原创
+小雪
+小雪便利店
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-eb8a09fef3e9241c.png "image")
-* 有序列表
-```
-//正常形式
-1. abc
-2. bcd
-3. cde
-//错序效果
-2. fgh
-3. ghi
-5. hij
 
-```
+![image.png](https://mmbiz.qpic.cn/mmbiz_gif/COeVjHEGzqmayESkEkyY0gPLHGXWedoibxOPMkcGJMniaiciclEkPWI57c7zu1kDYbnctuopeXU1FX6AIllOFibLUkg/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1 "image")
+
+![image.png](https://mmbiz.qpic.cn/mmbiz_gif/I0X8HBEV0nYichx7n5NNE9oMXaBhtRbjAk6TRYLSl3eUN5aWvCMWztdjRRSCmmw48GRC5OuskRGTz3icl4XicpD7Q/640?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1 "image")
+我们日常生活中，总有需要录制屏幕GIF，然而我们网上找的GIF软件都是需要收费的，或是捆绑很多辣鸡软件....这就很烦人了。
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-9692dc2a7c7a8ecd.png "image")
-如图，注意，数字后面的点只能是英文的点，有序列表的序号是根据第一行列表的数字顺序来的，
-错序列表的序号本来是序号是乱的， 但是还是显示 2 3 5
-* 嵌套列表
-```
-//无序列表嵌套
-+ 123
-    + abc
-    + bcd
-    + cde
-+ 465
-+ 789
-//有序列表嵌套
-1. abcd
-    1. abcde
-    2. abcde
-    3. abcde
-2. bcde
-3. cdef
-
-```
+然而，小雪就给大伙们整来了一款免费又实用的软件，建议收藏~
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-ea18c221bda4801d.png "image")
-列表可以嵌套，使用时在嵌套列表前按 tab 或 空格 来缩进,去控制列表的层数
-#####四、引用说明区块
-对某个部分做的内容做一些说明或者引用某某的话等，可以用这个语法。
-* 正常形式
-```
-> 引用内容、说明内容。在语句前面加一个 > ，注意是英文的那个右尖括号，注意空格，引用因为是一个区块，理论上是应该什么内容都可以放，比如说：标题，列表，引用等等。
-
-```
+ScreenToGif（Windows）
+国外大神开发的良心神器，免费，大小仅仅4MB！
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-1c272187ccfb1110.png "image")
-* 嵌套区块
-这里我只介绍一下我常用的方法，也是个人认为比较规范的一种方法，就是给区块的下一级区块多加一个右尖括号
-```
-> 一级引用
->> 二级引用
->>> 三级引用
->>>> 四级引用
->>>>> 五级引用
->>>>>> 六级引用
-
-```
+软件非常小巧，支持录像机、前置摄像头，录制画板，画板编辑等操作
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-1aabce7718f76dab.png "image")
-#####五、代码块
-在发布一些技术文章会涉及展示代码的问题，这时候代码块就显得尤为重要。
-* 少量代码，单行使用，直接用`包裹起来就行了
-```
-` shaoliangdaima,danhangshiyong `
 
-```
+![image.png](https://mmbiz.qpic.cn/mmbiz_png/COeVjHEGzqkAEfhfU6iadk78RiaTDTorMYC24tMWnT4BvVM2LdibkVXQsfwzQ6HAN056kuyOtlFk2UyFfl0flyb5Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1 "image")
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-ad3162fde43960f6.png "image")
-* 大量代码，需要多行使用，用```包裹起来
-```
-    ```
-        daliangdaima,xuyaoduohangshiyong
-        daliangdaima,xuyaoduohangshiyong
-        daliangdaima,xuyaoduohangshiyong
-        daliangdaima,xuyaoduohangshiyong
-        daliangdaima,xuyaoduohangshiyong
-    ```
-
-```
+软件自定义性非常强，我们以“录像机”来举个例子——
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-f36ccf1b4129df6b.png "image")
-#####六、链接
-* 行内式
-链接的文字放在[]中，链接地址放在随后的()中，链接也可以带title属性，链接地址后面空一格，然后用引号引起来
-```
-[简书](https://www.jianshu.com "创作你的创作"),
-是一个创作社区,任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品,互相交流。 
-
-```
-* 参数式
-链接的文字放在[]中，链接地址放在随后的:后，链接地址后面空一格，然后用引号引起来
-```
-[简书]: https://www.jianshu.com "创作你的创作"
-[简书]是一个创作社区,任何人均可以在其上进行创作。用户在简书上面可以方便的创作自己的作品,互相交流。
-//参数定义的其他写法
-[简书]: https://www.jianshu.com '创作你的创作'
-[简书]: https://www.jianshu.com (创作你的创作)
-[简书]: <https://www.jianshu.com> "创作你的创作"
-
-```
+选择“录像机”后，软件会弹出一个录制的区域，可自定义大小，选择像素等。。
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-94e98682ec1d1e8c.png "image")
-#####七、图片
-* 行内式
-和链接的形式差不多，图片的名字放在[]中，图片地址放在随后的()中，title属性（图片地址后面空一格，然后用引号引起来）,注意的是[]前要加上!
-```
-![my-logo.png](https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 "my-logo")
 
-```
-* 参数式
-图片的文字放在[]中，图片地址放在随后的:后，title属性（图片地址后面空一格，然后用引号引起来）,注意引用图片的时候在[]前要加上!
-```
-[my-logo.png]: https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 "my-logo"
-![my-logo.png]
-//参数定义的其他写法
-[my-logo.png]: https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 'my-logo'
-[my-logo.png]: https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240 (my-logo)
-[my-logo.png]: <https://upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240> "my-logo"
-
-```
+![image.png](https://mmbiz.qpic.cn/mmbiz_png/COeVjHEGzqkAEfhfU6iadk78RiaTDTorMYD4CoWWWbuCf0gI4DiaFbzhQdXosxcF1mzbNln9FTythxdciaUaHI8VKA/640?wx_fmt=png "image")
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-6d878e3d3ef63825.png "image")
-#####八、分割线
-分割线可以由* - _（星号，减号，底线）这3个符号的至少3个符号表示，注意至少要3个，且不需要连续，有空格也可以
-```
----
-- - -
-------
-***
-* * *
-******
-___
-_ _ _
-______
-
-```
+可以直接导入图片、视频、GIF进行美化。
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-d714148b4379f47b.png "image")
-#####九、其他
-* 强调字体
-一个星号或者是一个下划线包起来，会转换为<em>倾斜，如果是2个，会转换为<strong>加粗
-```
-*md*    
-**md**
-_md_   
- __md__
 
-```
+![image.png](https://mmbiz.qpic.cn/mmbiz_png/COeVjHEGzqkAEfhfU6iadk78RiaTDTorMYIjwic4T9wco6EAL3DicKicYXH3yadc8OabFSu6KQnyUqhlP6L58yXTcUA/640?wx_fmt=png "image")
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-c0fa033d2f13d33f.png "image")
-* 转义
-基本上和js转义一样,\加需要转义的字符
-```
-\\
-\*
-\+
-\-
-\`
-\_
-
-```
-* 删除线
-用~~把需要显示删除线的字符包裹起来
-```
-~~删除~~
-
-```
+很多GIF软件对帧的增减做的特别不细致，需要手动一帧一帧的删除。
 
 
-![image.png](https:////upload-images.jianshu.io/upload_images/13623636-609dee16fabaddd0.png "image")
-#####十、表格
-```
-//例子一
-|123|234|345|
-|:-|:-:|-:|
-|abc|bcd|cde|
-|abc|bcd|cde|
-|abc|bcd|cde|
-//例子二
-|123|234|345|
-|:---|:---:|---:|
-|abc|bcd|cde|
-|abc|bcd|cde|
-|abc|bcd|cde|
-//例子三
-123|234|345
-:-|:-:|-:
-abc|bcd|cde
-abc|bcd|cde
-abc|bcd|cde
+而它却能一键删除重复的帧、删除之后或之前的所有帧，以及移动等，小雪就觉得它特别人性化。
 
-```
-上面三个例子的效果一样，由此可得：
-1. 表格的格式不一定要对的非常起，但是为了良好的变成风格，尽量对齐是最好的
-2. 分割线后面的冒号表示对齐方式，写在左边表示左对齐，右边为右对齐，两边都写表示居中
-效果图如下：
-![image.png](https://upload-images.jianshu.io/upload_images/13623636-e12253979ce0ab66.png?imageMogr2/auto-orient/strip|imageView2/2/w/888/format/webp "image")
+
+
+![image.png](https://mmbiz.qpic.cn/mmbiz_png/COeVjHEGzqkAEfhfU6iadk78RiaTDTorMYeQ1P4MuX1Jjyoxia8FkOC4vib61T9RNqadS6kRmuXyKOs4jkNqoBYEdQ/640?wx_fmt=png "image")
+
+
+支持添加字幕，自由绘制，添阴影模糊，鼠标点击、添加水印，添加微动，裁剪，翻转等功能。
+
+
+
+
+
+
+保存格式支持为：GIF、Apng、视频、图片（帧）、PSD文件。
+
+
+
+![image.png](https://mmbiz.qpic.cn/mmbiz_png/COeVjHEGzqkAEfhfU6iadk78RiaTDTorMYoN3x448UcKuqTicHCSLsR5JYla48C4HwKfkHYrQ10faa6dXBSy0fhJw/640?wx_fmt=png "image")
+
+
+看看成品，这画质（被压缩过）
+
+
+
+![image.png](https://mmbiz.qpic.cn/mmbiz_gif/COeVjHEGzqkAEfhfU6iadk78RiaTDTorMYeyxNpWpex3XVLVFCo3zvkDSCj6uqYibBBXvYDnszS1ZeMMDYiccibnV5w/640?wx_fmt=gif "image")
+
+
+最后给大家演示一下，这个有意思的画板录制！
+
+
+
+
+
+你可能还喜欢：
+* “福利看片”神器来袭！免激活码！
+
+* 87614026个资源，切勿私藏。。。
+
+* 低调分享这款“特殊”神器，随时可能失效！！！
+
+* 建议收藏！真后悔没早点分享。。。
+
+* 别忘了给小雪点「在看」呀
+
+
+
+软件获取：回复关键字1396即可！
+
+让我知道你「在看」
+收录于话题 
+个
+
+                    
+                      上一篇
+                      
+                    
+                  
+
+                    
+                      下一篇
+                      
+                    
+                  
+阅读
+
+        分享
+      
+
+        收藏
+      
+
+      赞
+    
+
+      
+      在看
+    
+
+            
+            前往“发现”-“看一看”浏览“朋友在看”
+          
+
+                          
+                      
+![image.png](https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_like_comment492329.png "image")
+已发送
+#### 发送到看一看 
+最多200字，当前共字
+发送中
+![image.png](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzU5MTAyNTM5NA==&mid=2247487741&idx=1&sn=8860c77edb55103b26039d836fb640b2&send_time= "image")
+微信扫一扫
+关注该公众号

@@ -13,13 +13,15 @@
 (function() {
     'use strict';
     let urlArr = window.location.host.split(".");
+    let atType = urlArr[1];
+
     // Your code here...
     // 判断文章类型
     const trimMd = () => {
         let articleElement;
-        if(urlArr[1] === "weixin"){
+        if(atType === "weixin"){
             articleElement = document.querySelector("#js_article");
-        }else if(urlArr[1] === "jianshu"){
+        }else if(atType === "jianshu"){
             articleElement = document.querySelector("#__next > div._21bLU4._3kbg6I > div > div._gp-ck");
         }
         console.clear();
@@ -42,12 +44,19 @@
             // 文字
             else if (child.tagName === 'P' || child.tagName === 'SPAN' && !isNothing(child.innerText)) {
                 str += child.innerText + "\n";
+                if(child.firstElementChild && child.firstElementChild.tagName === 'IMG'){
+                    str += exEm(child);
+                }
             }
             // 图片
             else if (child.tagName === 'IMG') {
                 // 简书文章中的图片
                 let imgUrl = "";
-                imgUrl = !isNothing(child.src)?child.src:"https://"+child.dataset.originalSrc;
+                if(atType === "weixin"){
+                    imgUrl = !isNothing(child.src)&&child.src.slice(0,1)==='h'?child.src:child.dataset.src;
+                }else if(atType === "jianshu"){
+                    imgUrl = !isNothing(child.src)?child.src:"https://"+child.dataset.originalSrc;
+                }
                 str += "![image.png]("+ imgUrl + " \"image\")\n";
             }
             // 列表
