@@ -38,8 +38,8 @@
         let child = elem.firstElementChild;
         while (child) {
             // 标题
-            if (child.tagName.length === 2 && child.tagName.charAt(0) === 'H' && !isNaN(parseInt(child.tagName.charAt(1))) && !isNothing(child.innerText)) {
-                str += "###########".slice(0,parseInt(child.tagName.charAt(1))) + child.innerText + "\n";
+            if (child.tagName.length === 2 && child.tagName.charAt(0) === 'H' && !isNaN(+child.tagName.charAt(1)) && !isNothing(child.innerText)) {
+                str += "###########".slice(0,+child.tagName.charAt(1)) + child.innerText + "\n";
             }
             // 文字
             else if (child.tagName === 'P' || child.tagName === 'SPAN' && !isNothing(child.innerText)) {
