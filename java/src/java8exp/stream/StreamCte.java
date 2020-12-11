@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 public class StreamCte {
     public static void main(String[] args) {
         List<Apple> aList = getList();
-        // 1,分组
+          // 1,分组
         Map<Integer, List<Apple>> groupBy = aList.stream().collect(Collectors.groupingBy(Apple::getId));
         System.out.println("Group:" + groupBy);
 
