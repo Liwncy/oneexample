@@ -55,7 +55,7 @@
                 if (atType === "weixin") {
                     imgUrl = !isNothing(child.src) && child.src.slice(0, 1) === 'h' ? child.src : child.dataset.src;
                 } else if (atType === "jianshu") {
-                    imgUrl = !isNothing(child.src) ? child.src : "https://" + child.dataset.originalSrc;
+                    imgUrl = !isNothing(child.src) ? child.src : "https:" + child.dataset.originalSrc;
                 }
                 str += "![image.png](" + imgUrl + " \"image\")\n";
             }
