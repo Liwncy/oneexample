@@ -57,7 +57,7 @@
                 } else if (atType === "jianshu") {
                     imgUrl = !isNothing(child.src) ? child.src : "https:" + child.dataset.originalSrc;
                 }
-                str += "![image.png](" + imgUrl + " \"image\")\n";
+                str += "![image.png](" + imgUrl + " \"image\")\n\n";
             }
             // 列表
             else if (child.tagName === 'LI' && !isNothing(child.innerText)) {
